@@ -1,0 +1,48 @@
+
+
+1. Nga nje varg i dhene A me gjatesi N (ku N eshte qift) i numrave te plote te krijohet vargu B
+	me gjatesi N-1 e cila nuk e ka elementin e mesem te vargut A.
+----------------------------------------------------------
+N- final edhe e inicializojme per meos me pas te mesit N/2
+----------------------------------------------------------
+
+2. Shitoret Do dhe Fa shesin nje produkt te caktuar P. 
+	Nga ky produkt kan nga 100 cope.
+	Per shitjen e ketije produkti, keto shitore aplikojne strategji si ne vijim:
+	
+	Shitorja DO: Nese blen me shume se 2 cope aplikon 5% zbritje
+	Shitorja FA: Nese blen me shume se 2 cope aplikon nje e merr gratis(falas)
+	
+	Shitorja DO: Per cdo blerje, cope total te produktit zbriten per sasin e blere, dhe llogaritet 
+	vlera per pagese.
+Ne baze te ketyre te dhenave, te shkruhet programi qe simulon keto strategji shitje te produktit
+
+--------------------------------------------------------------------------------------------------------------
+totali i perbashket 
+trashegemia e perdorim klasa abstrakte permban llogaritjen e copeve dhe metoden abstrakte me llogarit pagesen
+--------------------------------------------------------------------------------------------------------------
+
+3. Te shkruhet klasa TextSort e cila mundeson radhitjen e emrave
+	A-Z ose Z-A dhe ka perdorim vijues:
+	
+	TextSort textSort= new TextSort(String[] emrat);
+	textSort.shfaq();
+	
+	Per ket, definoni interface - in funksional Sorter me metoden:
+		void sorto();
+
+	1. Sortimi te implementohet duket perdorur klaset anonime.
+	2. Sortimi te implementohet permes shprehjeve Llambda.
+	3.TextSort te modifikohet ashtu qe te kete mundesi radhit
+	 sipas parametrit te dyte si ne vijim:
+	
+	TextSort textSort= new TextSort(String[] emrat,"ASC");
+	textSort.shfaq();
+
+	ose
+
+	TextSort textSort= new TextSort(String[] emrat."DESC");
+	textSort.shfaq();
+--------------------------------------------------------------------------------------------------------------
+Me zgjeru programin ne baze te radhes a A-Z apo Z-A ka me pas si parameter shtes
+TextSort textSort= new TextSort(String[] emrat, radha);
