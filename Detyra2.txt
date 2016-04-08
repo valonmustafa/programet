@@ -1,0 +1,13 @@
+	1.Te shkruhet programi e te gjithe palindromeve ne intervalin 1000 , 10000. Programi shtype te gjitha palindromet
+	dhe ne dund numrin total te palindromeve.
+
+	2.Te Shkruhet programi per kovertimin nga grade celsius ne Farenhajt ne intervalin 20-30
+
+	vlerat ne kete interval te zgjidhen ne menyre te rastesishme.
+
+		formula e konvertimit T[F]=T[C]*1.8+32
+
+
+	3.Vargu i Fibonaccit eshte si vijon  0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, ...
+
+	Te shkruhet programi i cili i gjeneron 50 numat e pare te Fibonaccit 
