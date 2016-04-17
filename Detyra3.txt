@@ -1,0 +1,4 @@
+	1.Detyren me sfer me ja shtu edhe cilindrin ne interface edhe gjithashtu  i duhet cilindrit edhe 1 parameter
+		me ja shtu
+
+	2.Klasa GenericMethodUshtrime qe e ekemi ba ne klase me modifiku jo me array po me ba me punu me list 
